@@ -164,7 +164,7 @@ body{
     color: var(--color-dark);
     background-color: var(--color-yellow);
     background-image: linear-gradient(45deg, transparent 0%, transparent 50%, orangered 50%);
-    background-size: 250%;
+    background-size: 270%;
     margin-top: 10px;
     border: none;
     padding: 10px;
