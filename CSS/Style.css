@@ -220,7 +220,7 @@ body{
     background-color: #3f3d56f0;
     z-index: 1000;
     visibility: hidden;
-    transition: all .2s ;
+    transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 
