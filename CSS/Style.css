@@ -16,6 +16,8 @@
 }
 
 body{
+    border-radius: 10rem;
+    /* padding: 0 1rem ; */
     font-family: 'Rubik';
     background-color: #F9A826;
 }
@@ -23,21 +25,34 @@ body{
 
 .hero{
     background-image: url(/IMG/Web\ 1920\ –\ 3@2x.jpg);
+    background-attachment: fixed;
     background-color: #ffffff;
     background-position: top;
     background-size: cover;
     overflow: hidden;
     /* width: 100%; */
     clip-path: polygon(0 0, 100% 0, 100% 79%, 0% 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 79%, 0% 100%);
+    
+    
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .logo-box{
-    padding: 1rem 0 0 0;
+    padding-top: 1.5rem;
+    text-align: center;
 
 }
 
 .logo{
+    text-align: center;
     width: 60px;
+    /* margin: 0 auto; */
 }
 .content{
    margin-top: -90px;
@@ -68,6 +83,7 @@ body{
     font-weight: 900;
     font-size: 45px;
     padding: 1rem 0;
+    color: var(--color-dark);
 }
 
 .description{
@@ -251,14 +267,17 @@ ul li:not(:last-child){
 }
 
 .pic{
-    z-index: 2000;
+    
     position: fixed;
     left: 85%;
     top: 5%;
     width: 30px;
     cursor: pointer;
+    z-index: 2000;
     
 }
+
+
 
 .checkbox:checked + .navigation{
     visibility: visible;
