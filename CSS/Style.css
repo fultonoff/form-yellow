@@ -25,14 +25,13 @@ body{
 
 .hero{
     background-image: url(/IMG/Web\ 1920\ –\ 3@2x.jpg);
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-color: #ffffff;
     background-position: top;
     background-size: cover;
     overflow: hidden;
     /* width: 100%; */
-    clip-path: polygon(0 0, 100% 0, 100% 79%, 0% 100%);
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 79%, 0% 100%);
+ 
     
     
 }
@@ -56,7 +55,7 @@ body{
 }
 .content{
    margin-top: -90px;
-    height: 100vh;
+    height: 80vh;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -217,8 +216,7 @@ body{
     top: 0;
     width: 100%;
     height: 100vh;
-
-
+    transform: scale(0);
     background-color: #3f3d56f0;
     z-index: 1000;
     visibility: hidden;
@@ -281,6 +279,7 @@ ul li:not(:last-child){
 
 .checkbox:checked + .navigation{
     visibility: visible;
+    transform: scale(1);
 }
 
 .container{
