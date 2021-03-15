@@ -18,8 +18,61 @@
 body{
     font-family: 'Rubik';
     background-color: #F9A826;
+}
 
+
+.hero{
+    background-image: url(/IMG/Web\ 1920\ –\ 3@2x.jpg);
+    background-color: #ffffff;
+    background-position: top;
+    background-size: cover;
+    overflow: hidden;
+    /* width: 100%; */
+    clip-path: polygon(0 0, 100% 0, 100% 79%, 0% 100%);
+}
+
+.logo-box{
+    padding: 1rem 0 0 20rem;
+
+}
+
+.logo{
+    width: 60px;
+}
+.content{
+   margin-top: -90px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+ img{
+     overflow: hidden;
+     text-align: center;
+    flex: 1;
+    width: 500px;
+}
+
+.text{
+    flex: 1;
    
+    width: 300px;
+}
+
+.main-tittle{
+    font-family: inherit;
+    font-weight: 900;
+    font-size: 45px;
+    padding: 1rem 0;
+}
+
+.description{
+    font-size: 16px;
+    padding: 2rem 0;
 }
 
 .main{
@@ -48,10 +101,7 @@ body{
     
 }
 
-.first{
-   
 
-}
 
 .first img{
     width: 100%;
@@ -148,9 +198,10 @@ body{
 .navigation{
     overflow: hidden;
     position: fixed;
+    top: 0;
     width: 100%;
     height: 100vh;
-    margin-top: -10%;
+
 
     background-color: #3f3d56f0;
     z-index: 1000;
