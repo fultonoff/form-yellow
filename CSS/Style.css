@@ -150,6 +150,7 @@ body{
     position: fixed;
     width: 100%;
     height: 100vh;
+    margin-top: -10%;
 
     background-color: #3f3d56f0;
     z-index: 1000;
