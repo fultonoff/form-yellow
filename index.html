@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Google Font -->
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -26,27 +28,28 @@
 <body>
 
     <section class="hero">
-        <div class="logo-box">
+        <div data-aos="zoom-in" class="logo-box"> <a href="#">
             <img src="./IMG/Group 16.png" alt="" class="logo">
+        </a>
         </div>
 
         
 
         <div class="content">
-            <div class="text">
+            <div data-aos="zoom-in" class="text">
 
-                <h1 class="main-tittle">STUDY ABROAD</h1>
+                <h1 class="main-tittle">STUDY IN UKRAINE</h1>
                 <p class="description">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, assumenda laborum ea magni maxime esse voluptas similique illum! Quis, culpa.
                    
                    
                 </p>
 
-                <button class="btn">Start here</button>
+                <button class="btn">Learn more &rarr;</button>
 
             </div>
 
-            <div class="photo">
+            <div data-aos="zoom-in" class="photo">
                 <img src="./IMG/Studying-cuate.png" alt="">
             </div>
         </div>
@@ -57,7 +60,7 @@
         <!-- <i class="fas fa-bars"></i></label> -->
     <input class="checkbox" type="checkbox" id="check">
 
-    <div class="navigation">
+    <div  class="navigation">
         <ul class="nav-list">
             <li class="nav-links"> <a href=""> Home</a></li>
             <li class="nav-links"> <a href=""> Services</a></li>
@@ -67,49 +70,93 @@
             
         </ul>
     </div>
-<div class="main">
-    <div class="color">
-        <div class="first">
-            <img class="image" src="./IMG/Wall post-cuate.png" alt="">
+
+
+
+    <main>
+
+        <!-- SCROLL UP  -->
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+        <!-- SCROLL UP  -->
+
+        <!-- Section Highlight -->
+        <section class="who">
+
+            <div data-aos="fade-right" class="who-content">
+            <div class="who-tittle">
+                WHO WE ARE
+            </div>
+
+            <div class="who-head">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </div>
+
+            <div class="who-description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </div>
+
+            <div class="who-btn"> <a href=""> Read more &rarr;</a></div>
         </div>
-        <div class="second">
-            <h1>Contact us</h1>
 
-            <form action="#" class="contact">
-
-
-
-                <input id="first-name" type="text" placeholder="Joe" required>
-
-
-                <input id="last-name" type="text" placeholder="Smith" required>
-
-                <input id="last-name" type="email" placeholder="exemple@site.com" required>
-
-
-                <input id="subject" type="text" placeholder="Work" required>
-
-
-                <textarea id="message" name="message" rows="8" column="40" required placeholder="Hello"></textarea>
-                <button href="#" class="btn">Send!</button>
-
-            </form>
+        <div data-aos="fade-left" class="who-img">
+            <img src="./IMG/Learning-amico.png" alt="" class="who-pic">
         </div>
-      
-    </div>
 
-    
-    
-</div>
+        </section>
+
+        <!-- Section Highlight End -->
+
+
+
+
+
+        <div data-aos="zoom-in" class="main">
+            <div class="color">
+                <div class="first">
+                    <img class="image" src="./IMG/Wall post-cuate.png" alt="">
+                </div>
+                <div class="second">
+                    <h1>Contact us</h1>
+        
+                    <form action="#" class="contact">
+        
+        
+        
+                        <input id="first-name" type="text" placeholder="Joe" required>
+        
+        
+                        <input id="last-name" type="text" placeholder="Smith" required>
+        
+                        <input id="last-name" type="email" placeholder="exemple@site.com" required>
+        
+        
+                        <input id="subject" type="text" placeholder="Work" required>
+        
+        
+                        <textarea id="message" name="message" rows="8" column="40" required placeholder="Hello"></textarea>
+                        <button href="#" class="btn">Send!</button>
+        
+                    </form>
+                </div>
+              
+            </div>
+        
+            
+            
+        </div>
+        
+    </main>
 
 <section class="container">
 
 
 </section>
 
-
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="./JavaScript/aos.js"></script>
 <script src="https://kit.fontawesome.com/ff5b265e93.js" crossorigin="anonymous"></script>
+<script src="./JavaScript/main.js"></script>
 </body>
 
 </html>
